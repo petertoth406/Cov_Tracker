@@ -1,0 +1,1 @@
+A corona.csv-be exportáltam a adatbázist, mivel nélküle nem hiszem, hogy müködne egyáltalán. Ha esetleg nem müködne ez miatt, mellékeltem 2 képet, ami megmutatja milyen ha rendesen müködik. 
