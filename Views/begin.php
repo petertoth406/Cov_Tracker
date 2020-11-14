@@ -23,7 +23,7 @@
             </li>
         </ul>
         <form class="form-inline">
-            <input class="form-control mr-sm-1" type="search" placeholder="2020-11-13" aria-label="Search">
+            <input class="form-control mr-sm-1" type="search" placeholder="<?=Date('Y-n-j')?>" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-1" type="submit" name="search" value="Keres">Keres</button>
         </form>
         </div>
@@ -32,3 +32,4 @@
     <h1>Magyarországi Koronavírus Tájékoztató</h1>
     </div>
   </header>
+</body>
