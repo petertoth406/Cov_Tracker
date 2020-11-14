@@ -13,21 +13,22 @@ body{
     font-style: normal;
 }
 
-
-#headhero{
+#headpic{
     background-image: url("fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg");
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 180px;
     color: white;
+    border-radius: 15px 15px 0px 0px;
 }
 
-#headhero h1, #headhero a{
-  padding-top: 120px;
+#headhero h1{
+  padding-top: 170px;
   text-align: center;
   font-size: 50px;
   text-decoration: none;
   color: white;
 }
+
 
 #headhero form{
   float: right;
@@ -38,7 +39,7 @@ body{
   padding: 1px;
 }
 
-#headhero h1, a{
+#headhero h1{
   text-decoration: none;
   color: white;
 }

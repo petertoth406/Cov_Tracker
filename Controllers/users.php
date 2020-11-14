@@ -7,7 +7,7 @@ class Country extends DB {
 					}
 
           else{
-					return $this->select("SELECT datum, new_cases, new_deaths, new_tests, total_cases, total_deaths, total_deaths_per_million FROM covid");
+					return $this->select("SELECT datum, new_cases, new_deaths, new_tests, total_cases, total_deaths, total_deaths_per_million FROM covid ORDER BY datum DESC");
         }
   }
 }
@@ -15,7 +15,7 @@ class Country extends DB {
 class Reszlet extends DB {
   function get(){
     $loc=$_GET['loc'];
-    return $this->select("SELECT datum, MAX(population), MAX(total_deaths_per_million),  MAX(total_cases), MAX(total_deaths), MAX(total_cases_per_million) FROM covid WHERE location= '$loc'");
+    return $this->select("SELECT datum, new_cases, new_deaths, new_tests, total_cases, total_deaths, total_deaths_per_million FROM covid");
     }
 }
 ?>
