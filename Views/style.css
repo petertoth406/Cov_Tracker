@@ -13,14 +13,12 @@ body{
     font-style: normal;
 }
 
-/*HEADER*/
-
 #headpic{
     background-image: url("fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg");
     background-size: cover;
     padding-bottom: 180px;
     color: white;
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #headhero h1{
@@ -45,43 +43,6 @@ body{
   text-decoration: none;
   color: white;
 }
-
-.nav_button{
-    padding: 7px;
-    background-image: linear-gradient(35deg, #503c91, #b73448);
-    border-radius: 25px;
-    padding-left: 17px;
-    padding-right: 17px;
-    transition: background-color 0.5s ease;
-}
-
-#nav_button_r{
-    margin-left: 15px;
-}
-
-
-#search_button{
-    padding: 5px 10px 5px 10px;
-    background-image: linear-gradient(35deg, #503c91, #b73448);
-    border-radius: 50px;
-    margin-left: 5px;
-}
-
-#search_button img{
-    height: 16px;
-}
-
-.navlink{
-    color: white;
-}
-
-.navlink:hover{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-
-/*Table*/
 
 .table100{
   background-color: #fff;
