@@ -15,19 +15,19 @@
     <nav class="navbar navbar-expand-xl navbar-light bg-light">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Főoldal</a>
+            <li class="nav_button">
+                <a class="navlink" href="#">Főoldal</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Időrend</a>
+            <li class="nav_button" id="nav_button_r">
+                <a class="navlink" href="#">Időrend</a>
             </li>
         </ul>
         <form class="form-inline">
-            <input class="form-control mr-sm-1" type="search" placeholder="2020-11-13" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-1" type="submit" name="search" value="Keres">Keres</button>
+            <input class="form-control mr-sm-1 rounded" type="search" placeholder="2020-11-13" aria-label="Search">
+            <button id="search_button" type="submit" name="search" value="Keres"><img src="button.png"></button>
         </form>
         </div>
-      </nav>
+    </nav>
     <div id="headpic">
     <h1>Magyarországi Koronavírus Tájékoztató</h1>
     </div>
