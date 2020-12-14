@@ -18,4 +18,12 @@ class Reszlet extends DB {
     return $this->select("SELECT datum, new_cases, new_deaths, new_tests, total_cases, total_deaths, total_deaths_per_million FROM covid");
     }
 }
+
+
+class News extends DB{
+  function get(){
+    return $this->select("SELECT cim, url, img, datum FROM hirek");
+  }
+}
+
 ?>

@@ -21,6 +21,9 @@
             <li class="nav_button" id="nav_button_r">
                 <a class="navlink" href="#">Időrend</a>
             </li>
+            <li class="nav_button" id="nav_button_r">
+                <a class="navlink" href="#">Hírek</a>
+            </li>
         </ul>
         <form class="form-inline">
             <input class="form-control mr-sm-1 rounded" type="search" placeholder="2020-11-13" aria-label="Search">
