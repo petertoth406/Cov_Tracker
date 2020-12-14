@@ -23,7 +23,7 @@ require "begin.php";
   <?php
   require "../Models/database.php";
   require "../Controllers/users.php";
-  $country = new Country();
+  $country = new Timeline();
 
   echo $szur;
 

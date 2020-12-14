@@ -2,7 +2,7 @@
   require "begin.php";
   require "../Models/database.php";
   require "../Controllers/users.php";
-  $list = new Reszlet();
+  $list = new Timeline();
 
   foreach ($list->get() as $l) {
     echo '
@@ -15,10 +15,6 @@
       <div class="infobox">
         <h2>Elhunytak száma</h2>
         <h3>'.$l['MAX(total_deaths)'].'</h3>
-      </div>
-      <div class="infobox">
-        <h2>Lakosság</h2>
-        <h3>'.$l['MAX(population)'].' Fő</h3>
       </div>
       </div>
       <div class="row">
